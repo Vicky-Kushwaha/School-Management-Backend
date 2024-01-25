@@ -9,7 +9,8 @@ const corsOptions = {
 	origin: (origin,callback) => {
       const allowedOrigin = [
          "http://localhost:3000",
-         "https://school-management-app-vmg8.onrender.com"
+         "https://school-management-app-vmg8.onrender.com",
+         "https://vicky-kushwaha.github.io/School-Management-Frontend"
 
       	];
 
