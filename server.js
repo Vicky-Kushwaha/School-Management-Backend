@@ -27,6 +27,10 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use("/api/auth",router);
 
+app.get("/",(req,res) => {
+	res.send("welcome to backend service of School Management App");
+});
+
 const port = process.env.PORT || 5000;
 
 
